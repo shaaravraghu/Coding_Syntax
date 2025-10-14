@@ -1,0 +1,94 @@
+*Version Control System*
+- track changes in a code
+- Git is the most popular, free, open-source, fast & scalable VCS
+- majorly helps us track history and collaborate
+
+*GitHub*
+- store and manage code in Git
+- creating a new repository is like creating a folder locally. While creating you can control ownership followed by a repository name to be added (that becomes a part of the url). At the description (optional) you can write about your project. You can make the Repo's private or public. You can add a README.md (.md stands for markdown) file (description gets stored here). README.md is stored as an HTML-like syntax file. 
+
+*Commits*
+- two step process: 1. add & 2. commit
+- in GitHub you can commit changes (save progress) or cancel changes at the top right of the file.
+- once you click on commit changes; you can use commit message blank to fill in the version name of your commit. and description blank to note down details about the version.
+
+*Git Bash (Windows)/ Terminal (Mac)*
+- command: git --version (let's you know the version)
+- command: ls (list's out all visible file directories)
+- command: ls -a (list's out all files even the hidden ones)
+- command: pwd (gives the current working directory)
+- command: clear (remove all unwanted write-up)
+- command: cd <directory name> (change directory)
+
+*Configuring Git*
+- command: git config --global user.name "<My Name>" (configurations are of two types: 1. global (for single git account) & 2. local)
+- ~: represents root directory
+- other than root directory; you can see your folder name followed by % : this shows the current directory  
+- command: git config --global user.email "<Email ID>" (configures your account)
+- command: git config --list (showcases your name and email ID credentials)
+
+*Clone and Status*
+- Firstly, we open a file in VS Code and then open terminal.
+- command: git clone <repository link> (cloning the repository (remote) and our folder (local machine) every time changes occur)
+- we can get the link by opening repository and clicking on the code button and copying the https link.
+- command: git status (display the status of the code)
+
+*File Status: Making changes over terminal*
+- MODIFIED (change): make changes in the files and you can notice the files along side your VS code file bar change colour and display M; now use command (git status) and you'll find: "changes not staged for commit: Modified: <filename>" 
+- UNTRACKED (new file): if you create a new file, the colour changes again and U is visible; denoting Untracked Files; which Git doesn't track
+- STAGED: file is ready to be committed
+- UNMODIFIED: unchanged
+
+*Add & Commit*
+- command: git add <file name> (add new/ changed files in your working directory to the git staging area)
+- command: git add . (adds all the files to be staged)
+- command: git commit -m "<version message>" (it is to show that the change has been recorded/ processes all add's together)
+- command: git push origin main (uploads local repo's (machine) content to remote repo's (GitHub); origin stands for default repo's and main stands for main branch)
+- command: git log (list of commits performed)
+* if you are doing it for the first time VS Code requests to Authorize GitHub for VS Code
+
+* click on commits in repository to check it whenever needed
+* branch is a feature on Git and GitHub to allow different people/ teams work on the same project parallely without interfering in the main branch. the main branch is generally called master and other branches are referred as features.
+
+*Init: Create new Git Repo's*
+- command: git init (initiate a new repo's locally)
+- command: git remote add origin <link> (adds the repo's to remote location with custom link of repo's on GitHub)
+- command: git remote -v (to verify remote)
+- command: git branch (to check branch)
+- command: git branch -M "<new name>" (preferably "main" toto replace "master" on Git)
+- command: git push -u origin main (-u refers to set upstream)
+
+*Branch Commands*
+- command: git branch (to chech the current branch)
+- command: git branch -M "<new name>" (renaming the branch)
+- command: git checkout <branch name> (navigate to that branch)
+- command: git checkout -b <new branch name> (to create a new branch)
+- command: git branch -d <branch name> (delete branch)
+
+*Merging Branches: GitHub Pull Request*
+- To merge branches in GitHub we use pull requests. We go to the pull requests section of the repo's and open a new pull request.
+- In the pull request we dirct the merging. From compare (features) with the updated functionality to base (main) with the core. Name the pull request (commit change) something with description if needed. Now if conflicts are seen it has to be resolved orelse it automatically merges. Now, complete the merge pull request. Confirm the merge (this is also a commit).
+- command: git pull origin main (to fetch and download content from the remote repo's and set it up in local repo's)
+
+* conflicts arise when other than addition there is code that is conflicting in content. Git and GitHub gets confused on which one to consider. This has to be resolved manually.
+
+*Merging Branches: Git*
+- command: git diff <branch name> (to compare commits, branches, files & more)
+- command: git merge <branch name> (perform merge)
+* Direction is not essential during merging since they both have to combine and move forward together. We fill the branch name of the other one while being in the present branch.
+
+*Undoing changes: staged files*
+- command: git reset <file name> (reset from stage/ add position)
+- command: git reset 
+
+*Undoing changes: committed changes for single commit*
+- command: git reset HEAD~1 (reset the latest commit)
+
+*Undoing changes: committed changes for multiple commit*
+- command: git reset <-commit hash-> (reset that commit in history and takes note of ONLY those commits before the commit getting reseted)
+- command: git reset --hard <-commit hash-> (reset that commit in history and takes note of ONLY those commits before the commit getting reseted; with the code all so getting reset to before the commit)
+
+*Fork*
+- A fork is a new repository that shares code and visibility settings with the orignal "upstream" repository
+- fork is a rough copy
+- search for GitHub repo's and then fork it to yours. you can only copy the master branch or others also.
