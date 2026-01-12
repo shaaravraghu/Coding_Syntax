@@ -1,0 +1,120 @@
+Unix/ Linux (Ubuntu)/ MacOS (Darwin-Unix) Commands
+
+1. ls (list)
+- list directories
+- ls [options] [path]
+- -l (long format - permissions, owner, size), -a (show hidden files), -h (human-readable sizes), -R (recursive listing)
+
+2. pwd (present working directory)
+- print out the current directory 
+
+3. mkdir (make directory)
+- create a new directory
+- mkdir [options] directory_name
+- -p (create parent directories automatically)
+
+4. cd (change directory)
+- change from current directory
+- cd [path]
+- . (), .. ()
+
+5. cp (copy)
+- copy file/ directory
+- cp [options] source destination
+- -R (recursive), -i (prompt before overwrite)
+
+6. rmdir (remove directory)
+- remove empty directory (only)
+
+7. mv (move)
+- move files/ directories or rename files/ directories
+- mv source destination
+- mv old_file new_file
+
+8. uname (username)
+- provides system identity data
+- uname [options]
+- -a (all system info), -s (kernel name), -m(machine architecture)
+
+9. whoami
+- display logged-in username
+
+10. clear 
+- clear terminal commands (ctrl + L)
+
+11. locate
+- search files & text
+
+12. touch
+- creates empty files quickly
+- touch file1 file2 ... filen
+
+13. ln
+- create links
+- ln [options] source target
+- -s (symbolic), nothng for hard link
+
+14. cat
+- display file contents
+- cat file_name
+- merge files
+- cat file1 file2 ... filen > file_name
+
+15. grep
+- search text using patterns
+- grep [options] pattern file
+- -i (ignore case), -r (recursive), -n (show line number)
+
+16. echo
+- output text or variable
+- echo "Text"/ $var
+
+17. ps
+- show running processes
+- ps (current terminal only)/ ps aux (all system processes)
+
+18. man
+- documentation for commands
+- man [command]
+
+19. wget
+* macOS equivalent: curl
+- curl <link>
+
+20. sort
+- sort file contents
+- sort [options] file
+- -n (numeric), -r (reverse)
+
+21. wc
+- count file stats
+- wc [options] file
+- -l (lines), -w (words), -c (bytes), -m (characters), plain (displays all)
+
+22. cal
+- display calendar
+
+23. df
+- show disk space/ usage
+
+24. whereis
+* macOS equivalent: which
+- which file
+
+25. rm
+- remove files/ directory
+- rm [options] target
+- -r (recursive), -f (force)
+
+
+
+Some MacOS Terminal Shortcuts:
+Ctrl + L: clear screen
+Cmd + K: clears terminal buffer
+Cmd + T: New Tab
+Cmd + N: New Window
+Cmd + W: Close Tab
+Ctrl + C: Kill running command
+Ctrl + Z: suspend a process
+fg: resume suspend process; bg: resume in background
+Ctrl + D: Exit Shell
