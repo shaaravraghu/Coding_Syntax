@@ -1,0 +1,516 @@
+%-------------------------
+% Resume in Latex
+% Author
+% License : MIT
+%------------------------
+
+%---- Required Packages and Functions ----
+
+\documentclass[a4paper,11pt]{article}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-0.5in}
+%\addtolength{\evensidemargin}{-0.5in}
+%\addtolength{\textwidth}{1in}
+\usepackage[most]{tcolorbox}
+\tcbset{
+    breakable, % allows box to break across pages
+	frame code={}
+	center title,
+	left=0pt,
+	right=0pt,
+	top=0pt,
+	bottom=0pt,
+	colback=gray!20,
+	colframe=white,
+	width=\dimexpr\textwidth\relax,
+	enlarge left by=-2mm,
+	boxsep=4pt,
+	arc=0pt,outer arc=0pt,
+}
+
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0 mm}\item
+% l@{\hspace{4mm}
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    % \begin{tabular*}{0.98\textwidth}[t]{l@{\vspace{-1mm}}r}
+
+        \textbf{#1} & \textit{\footnotesize{#4}} \\ [-1mm]
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-3.6mm}
+}
+% for education and work experience
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.10mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-3.6 mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+% \renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+%---- End of Packages and Functions ------
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%
+%%%%%% DEFINE ELEMENTS HERE %%%%%%%
+\newcommand{\name}{Shaarav Raghu} % Your Name
+\newcommand{\course}{BTech. Mathematics \& Computing} % Your Program
+\newcommand{\roll}{24MAB0A24} % Your Roll No.
+\newcommand{\phone}{9148033536} % Your Phone Number
+\newcommand{\emaila}{shaaravraghu@gmail.com} %Email 1
+\newcommand{\emailb}{sr24mab0a24@nitw.ac.in} %Email 2
+\newcommand{\linkedin}{https://www.linkedin.com/in/shaarav-raghu/} % LinkedIn
+\newcommand{\github}{https://github.com/shaaravraghu/} % GitHub
+\newcommand{\codeforces}{https://codeforces.com/profile/shaaravraghu} % CodeForces
+\newcommand{\hackerrank}{https://www.hackerrank.com/profile/sr24mab0a24} % HackerRank
+\newcommand{\leetcode}{https://leetcode.com/u/RlsFOeeUO2/} % LeetCode
+\newcommand{\devpost}{https://devpost.com/shaaravraghu/}
+\newcommand{\twitter}{https://x.com/Shaarav_Raghu}
+\newcommand{\codechef}{https://www.codechef.com/users/game_change777}
+
+
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+
+%----------HEADING-----------------
+\noindent
+\begin{minipage}[t]{0.12\linewidth}
+    \vspace{0pt} % Aligns the top of the image with the top of the text
+    \includegraphics[width=1.87cm]{Mnit_logo_bw.png}
+\end{minipage}
+%
+\begin{minipage}[t]{0.43\linewidth}
+    \vspace{2.0pt}
+    \raggedright
+    {\textbf{\Large \name}}\\
+    {Roll No.: \roll}\\
+    {\course}\\
+    {National Institute Of Technology, Warangal}
+    {Work Authorized: US (Citizen) \& India (OCI)}
+\end{minipage}
+\hfill
+%
+\begin{minipage}[t]{0.40\linewidth}
+    % remove the comments to access the links as per need
+    \vspace{-2.0pt}
+    % Re-value the above to change starting point of profile links
+    \raggedleft
+
+    % re-value size of text
+    \fontsize{9pt}{10pt}\selectfont
+    {\footnotesize \faPhone} \ +91-\phone\\
+    {\footnotesize \faEnvelope} \ \href{mailto:\emaila}{\emaila}\\
+    {\footnotesize \faEnvelope} \ \href{mailto:\emailb}{\emailb}\\
+    {\footnotesize \faLinkedin} \ \href{\linkedin}{linkedin.com/in/shaarav-raghu}\\
+    {\footnotesize \faGithub} \ \href{\github}{github.com/shaaravraghu}\\
+    % {\footnotesize \faCode} \ \href{\leetcode}{leetcode.com/u/RlsFOeeUO2}\\
+    % {\footnotesize \faCode} \ \href{\codeforces }{codeforces.com/profile/shaaravraghu} {\hspace{-20mm}} {\newline}
+    % {\footnotesize \faCode} \ \href{\hackerrank}{hackerrank.com/sr24mab0a24}\\
+    % {\footnotesize \faCode} \ \href{\codechef}{codechef.com/users/game\_change777}\\
+    {\footnotesize \faLaptopCode} \ \href{\devpost}{devpost.com/shaaravraghu}\\
+    {\footnotesize \faTwitter} \ \href{\twitter}{x.com/Shaarav\_Raghu}
+    % Add more profiles here easily with \\
+\end{minipage}
+
+
+
+
+%-----------EDUCATION-----------
+\section{\textbf{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      { National Institute of Technology, Warangal}{CGPA: 7.58}
+      { BTech. Mathematics \& Computing with Minor Degree in Quantum Technologies}{2024 - 28}
+    \resumeSubheading
+      { Presidency School Bangalore South}{Percentage: 93.2\% / 91.8\%}
+      { Central Board of Secondary Education Class 10 \& 12 (PCM, Comp.)}{2022 \& 2024}
+  \resumeSubHeadingListEnd
+\vspace{-5.5mm}
+%
+
+
+
+%-----------EXPERIENCE-----------------
+\section{\textbf{Experience}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      { India Space Labs}{Remote - NCR based}{ Intern – Drone, CanSat, CubeSat, Astronomy, Astrophysics} {Dec 2024 – Jul 2025}
+
+    \resumeSubheading
+      { Perplexity [Comet]}{NIT Warangal}{ Campus Ambassador, Marketing: Drive Comet Activations \& Perplexity Subscriptions}{June 2025 – Present}
+
+    \resumeSubheading
+      { Bannerghatta Biological Park}{Bangalore}{ Volunteer, Outreach and Public Education}{Oct 2023 – Jun 2024}
+
+    \resumeSubheading
+      { Schoolhouse}{Remote}{ Physics, Chemistry, Calculus and SAT Tutor}{Dec 2022 – Jun 2024}
+
+    \resumeSubheading
+      { Student Researcher [School]}{Indian Institute of Science}{ Conduct field studies along with Professors; testing, data analysis, data visualization, \& modeling}{2022 \& 2024}
+
+    \resumeSubheading
+      { Infosys}{Remote - BLR based}{ Intern and team lead for 25+ in project related to 'Development of AI Code Reviewer'.}{Dec 25' – Feb 26'}
+
+    \resumeSubheading
+        { VM 365}
+        {Remote – SF based}
+        { B2B Sales Dev.: 4+ clients (100+ size);
+        build AI native (end-to-end) top 1\% lead generator/ outreach}{Dec 25' – Feb 26'}
+
+    
+
+    
+%    \resumeSubheading
+%      {Company Name}{City}
+%      {Your Role}{Event dates}
+%      \vspace{2.0mm}
+%      \resumeItemListStart
+%    \item {Work description line 1}
+%    \item {Work description line 2}
+%    \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+\vspace{-5.5mm}
+
+
+
+%-----------PROJECTS-----------------
+\section{\textbf{Projects}}
+\resumeSubHeadingListStart
+
+% Project 1
+    \resumeProject
+      { Design Thinking Project: Dreamlike} %Project Name
+      { Agentic AI and Specialized Occupation Oriented Mathematics Tools Integration in Technical Work/ Business} %Project Name, Location Name
+      {Dec 24’ - Mar 25’} %Event Dates
+    
+
+% Project 2
+    \resumeProject
+      { Smart India Hackathon: Ignite 36 (Internal Round)} %Project Name
+      { Agentic AI Medical ChatBot integrated with Whatsapp} %Project Name, Location Name
+      {since Aug 25’} %Event Dates
+
+    \resumeProject
+      { Neuralink: Neural Signal - Mouse-board Traction - Image Construction} %Project Name
+      { Formulate velocity of cursor with timestamps to displacement positions to graphical pointing: Image Construction} %Project Name, Location Name
+      {Dec 25'} %Event Dates
+
+    \resumeProject
+      { Dedalus Labs (YC): Project Assistant (Swarm Agents)} %Project Name
+      { End-to-end Agentic AI Assistant to help build your project from scratch} %Project Name, Location Name
+      {Nov 25’} %Event Dates
+
+    \resumeProject
+      { Attack Capital (YC): AI Meeting Scriber App} %Project Name
+      { Web GenAI application to scribe meeting videos and generate minutes-of-meeting} %Project Name, Location Name
+      {Dec 25’} %Event Dates
+
+    \resumeProject
+      { Infosys: AI Code Reviewer} %Project Name
+      { Building a CLI for AI Code suggestions and reviewing using Agentic AI Framework} %Project Name, Location Name
+      {Dec 25’ - Feb 26'} %Event Dates
+
+    \resumeProject
+      { Atlassian Codegeist 2025: WorkHub} %Project Name
+      { Built an advanced work application for software developers using Jira, Confluence, Bitbucket etc.} %Project Name, Location Name
+      {Dec 25’} %Event Dates
+
+    \resumeProject
+      { Microsoft Imagine Cup 2026: Financial AI Advisor} %Project Name
+      { Financial AI consulting with transaction note-keeping, memory, transcription tracking, market \& strategy analysis} %Project Name, Location Name
+      {Jan 25’} %Event Dates
+
+    \resumeProject
+      { Bitcoin AI Trader} %Project Name
+      { Provide AI suggestions for Bitcoin Trading using Technical Analysis Metrics} %Project Name, Location Name
+      {Jan 25’} %Event Dates
+      
+% Project 3
+    \resumeProject
+      { High Frequency AI Trading Project} %Project Name
+      {Synchronizing Sentiment Analysis with Fundamental \& Technical Analysis to understand Markets using AI Agent} %Project Name, Location Name
+      {since Jun 25’} %Event Dates
+
+
+
+% Project 4
+    \resumeProject
+      { SEA Club: Satellite Project} %Project Name
+      { Rocket Propulsion Module and High Altitude Balloon Payload Test} %Project Name, Location Name
+      {since Jul 25’} %Event Dates
+
+
+
+% Project 4
+   % \resumeProject
+      % { LAKE 2020, IISc — \textnormal{\small Threats to the Nandi Hills Ecosystem}} %Project Name
+      % {\vspace{-4mm}}
+      % {Jun - Dec 20’} %Event Dates
+
+% Project 4
+    % \resumeProject
+      % { LAKE 2022, IISc — \textnormal{\small Comparative study of water quality of south Bangalore lakes}} %Project Name
+      % {\vspace{-4mm}}
+      % {Apr - Dec 22’} %Event Dates
+
+% Project 4
+   \resumeProject
+      { LAKE 2020 \& 2022, IISc — \textnormal{\small Nandi Hills \& South Bangalore Lakes}} %Project Name
+      {\vspace{-4mm}}
+      {2020 \& 2022} %Event Dates
+
+
+      
+
+% Project 4
+    \resumeProject
+      { Research Paper in Chemistry — \textnormal{\small Shortcut Formulae to Calculate Electronic Configuration}} %Project Name
+      {\vspace{-4mm}}
+      {Dec 19’ - Jan 24’} %Event Dates
+
+% Project 4
+    \resumeProject
+      { High School Computer Science Project — \textnormal{\small Developing a Scientific Calculator from scratch}} %Project Name
+      {\vspace{-4mm}}
+      {Jun 22 - Jan 24’} %Event Dates
+
+% Project 4
+    % \resumeProject
+      % { Investigatory Project (Chemistry) — \textnormal{\small Economical Method for Biodiesel Synthesis}} %Project Name
+      % {\vspace{-4mm}}
+      % {2023} %Event Dates
+
+% Project 4
+  % \resumeProject
+      % { Investigatory Project (Physics) — \textnormal{\small Constructing Rectifiers for Electrical Signals}} %Project Name
+      % {\vspace{-4mm}}
+      % {2023} %Event Dates
+
+    \resumeProject
+      { Investigatory Project (Phy. \& Chem.) — \textnormal{\small Electrical Signal Rectifiers \& Biodiesel Synthesis}} %Project Name
+      {\vspace{-4mm}}
+      {2023} %Event Dates
+
+
+% Project Demo
+%    \resumeProject
+%     {Project Name} %Project Name
+%      {Project description(Your input in the project)} %Project Name, Location Name
+%      {Event dates} %Event Dates
+
+%      \resumeItemListStart
+%        \item {Tools \& technologies used: xxx,xxx}
+%        \item {More description on the project(The output you achieved by working on the project)}
+%    \resumeItemListEnd
+%    \vspace{-2mm}
+
+  \resumeSubHeadingListEnd
+\vspace{-5.5 mm}
+
+
+
+%-----------Technical skills-----------------
+\section{\textbf{Technical Skills \& Interests}}
+ \begin{itemize}[leftmargin=0.05in, label={}]
+    \small{\item{
+     \textbf{Languages}{: } Python, C/C++/C#, Java, JavaScript, CSS, HTML, Rust, MATLAB, R \\
+     \textbf{Developer Tools}{: } Git, GitHub, Agile-Scrum, DevOps, Docker \\
+     \textbf{Frameworks}{: } Django, FastAPI, MERN Stack, Numpy, Sympy, Pandas, Matplotlib, Scikit-learn, TensorFlow, PyTorch, Quantum-Cirq-Qiskit \\
+     \textbf{Cloud/Databases}{: } SQL, Google Enterprise \\
+     \textbf{Agentic AI Tools}{: } n8n, OpenAI-AgentKit, Zapier, CrewAI, LangChain/LangGraph \\
+     \textbf{Operating Systems}{: } Windows, Linux \\
+     \textbf{Communication Skills}{: } Debating, Public Speaking, Event Hosting, Articulation \& Presentation, Analysis \& Consultation, PR, Marketing, Sales \\
+     \textbf{Leadership Skills}{: } Team Assignment \& Structuring, Guiding \& Motivating Teams, Decision-Making, Conflict Resolution, Work Ethic \\
+     \textbf{Interpersonal Skills}{: } Teamwork, Active Listening, Emotional Intelligence, Empathy, Relationship Building \\
+     \textbf{Problem-Solving \& Critical Thinking}{: } Problem Analysis, Creativity, Adaptability, Critical Thinking \\
+     \textbf{Organizational Skills}{: } Time Management, Planning, Prioritization, Presentation Skills, Self-Motivation \\
+     \textbf{Areas of Interest}{: } LLM, AGI, GenAI, AI: Agents, Solutions, Frameworks, Multi-agents/ Swarms, Self-optimization; High Frequency Algo-Trading \& Quantitative Finance; Quantum Mechanics, Computing, Cryptography \& Communication; Astrophysics \& Nuclear Physics; Algorithm Development.
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+%-----------Positions of Responsibility-----------------
+\section{\textbf{Positions of Responsibility}}
+\vspace{-0.4 mm}
+\resumeSubHeadingListStart
+\resumePOR{ Class Representative, }{Mathematics and Computing, NITW}{2024–2028} \vspace{-1.2 mm}
+\resumePOR{ Executive Member, }{Math Society \& SDC (AI/ML Vertical), SEA Club}{2025–Present} \vspace{-1.2 mm}
+\resumePOR{ Project Lead, }{Satellite and Electronics Amateur’s (SEA)}{2025–Present} \vspace{-1.2 mm}
+\resumePOR{ Student Council, }{NIT Warangal}{2024–Present} \vspace{-1.2 mm}
+\resumePOR{ Organiser, }{Technozion 2024 \& National Mathematics Day}{2024} \vspace{-1.2 mm}
+\resumePOR{ Volunteer, }{Bannerghatta Biological Park, BBP, IISc LAKE Projects}{2020–2024} \vspace{-1.2 mm}
+\resumePOR{ Team Lead, }{ Infosys, Lead a software team of size 25+}{Dec 25' - Feb 26'} \vspace{-1.2 mm}
+\resumeSubHeadingListEnd
+\vspace{-5mm}
+
+
+
+
+%-----------Achievements-----------------
+\section{\textbf{Awards \& Achievements}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumePOR{ MUN (HRC, WHO, UNODC, SC, WB, US Cong.) – Best Delegate \& Chair,}{ School, College}{2019–2023} \vspace{-1.2 mm}
+\resumePOR{ LAKE 2020 \& 2022 Finalist [National Level],}{ Centre for Ecological Sciences, IISc}{2020–2022} \vspace{-1.2 mm}
+\resumePOR{ JEE Main \& Advanced Qualified [National Level],}{ Secured NIT Warangal M\&C Seat}{2024} \vspace{-1.2 mm}
+    
+%\resumePOR{Achievement } % Award
+%    {description} % Event
+%    {Event dates} %Event Year
+\resumeSubHeadingListEnd
+\vspace{-5mm}
+
+
+
+
+%-------------------------------------------
+\section{\textbf{Coursework \& Certifications}}
+\resumeSubHeadingListStart
+\resumePOR{ Quantum Computing Course, }{The Coding School (Supported by Google Quantum AI)}{2024} \vspace{-1.2 mm}
+\resumePOR{ AI Internship Training, }{Infosys Springboard}{2025} \vspace{-1.2 mm}
+\resumePOR{ Volunteer Training, }{Bannerghatta Biological Park}{2023} \vspace{-1.2 mm}
+\resumePOR{ Ecological Research Program, }{CES, IISc LAKE Project}{2022} \vspace{-1.2 mm}
+\resumePOR{ India Semiconductor Workforce Development Program}{}{2026} 
+\begin{resumeItemList}
+    Synopsis Inc., Samsung Semiconductor India Research, Rohde \& Schwarz, Tektronix
+\end{resumeItemList}
+\resumeSubHeadingListEnd
+\vspace{-5mm}
+
+
+
+
+
+%-------------------------------------------
+\section{\textbf{Conferences \& Hackathons}}
+\resumeSubHeadingListStart
+\resumePOR{ Technology Dialogue 2025, }
+    {IISc, Ministry of External Affairs \& Principal Scientific Advisor (GoI) (Special Invite)}
+    {}\vspace{-1.2 mm}
+\resumePOR{ IISc x Qiskit Fall Fest 2025, }
+    {IISc}
+    {}\vspace{-1.2 mm}
+\resumePOR{ Atlassian Codegeist 2025, }
+    {5000+ Global Hackathon Participants}
+    {} \vspace{-1.2 mm}
+\resumePOR{ Microsoft Imagine Cup, }
+    {2M+ student participants}
+    {} \vspace{-1.2 mm}
+\resumePOR{ International Quant Championship 2025, }
+    {WorldQuant (80,000+ Participants worldwide)}
+    {} \vspace{-1.2 mm}
+\resumePOR{ Smart India Hackathon 2025, }
+    {70,000+ teams across India}
+    {} \vspace{-1.2 mm}
+\resumePOR{ Lake Conference 2020 \& 2022, }
+    {CES, IISc}
+    {} \vspace{-1.2 mm}
+\resumeSubHeadingListEnd
+\vspace{-5mm}
+
+
+
+
+\section{\textbf{Contributions}}
+\resumeSubHeadingListStart
+\resumePOR{ Co-author Textbook, }
+    {Design and Analysis of Algorithms}
+    {2025-26}\vspace{-1.2 mm}
+\resumePOR{ Author Novel, }
+    {4th February 2024}
+    {2024-Presnt}\vspace{-1.2 mm}
+\resumeSubHeadingListEnd
+
+
+
+
+
+
+
+
+
+
+%-------------------------------------------
+\end{document}
