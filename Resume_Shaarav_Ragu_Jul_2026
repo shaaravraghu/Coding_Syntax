@@ -455,20 +455,23 @@
 
 
 
-
 %-----------Positions of Responsibility-----------------
 \section{\textbf{Positions of Responsibility}}
-\vspace{-0.4mm}
+\vspace{-0.4 mm}
 \resumeSubHeadingListStart
-\resumePOR{ Class Representative, }{Mathematics and Computing, NITW}{2024–2028}
-\resumePOR{ Executive Member, }{Math Society \& SDC (AI/ML Vertical), SEA Club}{2025–Present}
-\resumePOR{ Project Lead, }{Satellite and Electronics Amateur’s (SEA)}{2025–Present}
-\resumePOR{ Student Council, }{NIT Warangal}{2024–Present}
-\resumePOR{ Organiser, }{Technozion 2024 \& National Mathematics Day}{2024}
-\resumePOR{ Volunteer, }{Bannerghatta Biological Park, BBP, IISc LAKE Projects}{2020–2024}
-\resumePOR{ Team Lead, }{Lead a software team of size 25+}{Dec 25' - Feb 26'}
+\resumePOR{ Class Representative, }{Mathematics and Computing, NITW}{2024–2025} \vspace{-2 mm}
+\resumePOR{ Executive Member, }{Math Society \& SDC (AI/ML Vertical), SEA Club}{2025–Present} \vspace{-2 mm}
+\resumePOR{ Project Lead, }{Satellite and Electronics Amateur’s (SEA)}{2025–26} \vspace{-2 mm}
+\resumePOR{ Student Council, }{NIT Warangal}{2024–25} \vspace{-2 mm}
+\resumePOR{ Organiser, }{Technozion 2024 \& National Mathematics Day}{2024} \vspace{-2 mm}
+\resumePOR{ Volunteer, }{Bannerghatta Biological Park, BBP, IISc LAKE Projects}{2020–2024} \vspace{-2 mm}
+\resumePOR{ Team Lead, }{ Infosys, Lead a software team of size 25+}{Dec 25' - Feb 26'} \vspace{-2 mm}
 \resumeSubHeadingListEnd
 \vspace{-5mm}
+
+
+
+
 
 
 
