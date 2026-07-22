@@ -446,6 +446,7 @@
     {}\vspace{1.75 mm}
 \begin{resumeItemList}
     India's top (<1\%) founders \& builders; \$25000 credits provided; 35000+ applicants
+    \end{resumeItemList}
 \vspace{-3.25 mm}
 \resumePOR{ Technology Dialogue 2025, }
     {IISc, Ministry of External Affairs \& Principal Scientific Advisor (GoI) (Special Invite)}
@@ -477,13 +478,13 @@
 
 %-----------Positions of Responsibility-----------------
 \section{\textbf{Positions of Responsibility}}
-\vspace{-0.4 mm}
+\vspace{-1 mm}
 \resumeSubHeadingListStart
-\resumePOR{ Class Representative, }{Mathematics and Computing, NITW}{2024–2025} \vspace{-2 mm}
-\resumePOR{ Executive Member, }{Math Society \& SDC (AI/ML Vertical), SEA Club}{2025–Present} \vspace{-2 mm}
+\resumePOR{ Class Representative, } {Mathematics and Computing, NITW}{2024–2025} \vspace{-2 mm}
+\resumePOR{ Executive Member, } {Math Society \& SDC (AI/ML Vertical), SEA Club}{2025–Present} \vspace{-2 mm}
 \resumePOR{ Project Lead, }{Satellite and Electronics Amateur’s (SEA)}{2025–26} \vspace{-2 mm}
 \resumePOR{ Student Council, }{NIT Warangal}{2024–25} \vspace{-2 mm}
-\resumePOR{ Organiser, }{Technozion 2024 \& National Mathematics Day}{2024} \vspace{-2 mm}
+\resumePOR{ Organiser, }{Technozion 2024 \& National Mathematics Day}{2024}  \vspace{-2 mm}
 \resumePOR{ Volunteer, }{Bannerghatta Biological Park, BBP, IISc LAKE Projects}{2020–2024} \vspace{-2 mm}
 \resumePOR{ Team Lead, }{ Infosys, Lead a software team of size 25+}{Dec 25' - Feb 26'} \vspace{-2 mm}
 \resumeSubHeadingListEnd
@@ -538,10 +539,10 @@
 %-------------------------------------------
 \section{\textbf{Coursework \& Certifications}}
 \resumeSubHeadingListStart
-\resumePOR{ Quantum Computing Course, }{The Coding School (Supported by Google Quantum AI)}{2024}
-\resumePOR{ AI Internship Training, }{Infosys Springboard}{2025}
-\resumePOR{ Volunteer Training, }{Bannerghatta Biological Park}{2023}
-\resumePOR{ Ecological Research Program, }{CES, IISc LAKE Project}{2022}
+\resumePOR{ Quantum Computing Course, }{The Coding School (Supported by Google Quantum AI)}{2024}\vspace{-2 mm}
+\resumePOR{ AI Internship Training, }{Infosys Springboard}{2025}\vspace{-2 mm}
+\resumePOR{ Volunteer Training, }{Bannerghatta Biological Park}{2023}\vspace{-2 mm}
+\resumePOR{ Ecological Research Program, }{CES, IISc LAKE Project}{2022}\vspace{-2 mm}
 \resumeSubHeadingListEnd
 
 
