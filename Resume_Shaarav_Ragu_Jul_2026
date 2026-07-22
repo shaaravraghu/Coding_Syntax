@@ -239,8 +239,16 @@
         {Remote}
         { Founder, CEO - Revolutionizing IDE Development; Beta-testing phase}{Dec 25' – Present}
 
+    \resumeSubheading
+        { GirlScript Summer of Code }
+        {Remote}
+        { Top 1\%, Contributor, Mentor \& Project Admin (Clipwallet) }
+        {May 26' – Jul 26'}
 
-    
+    \resumeSubheading
+        { IICPC (InterCollegiate Informatic and Competitive Programming Camp Pvt Ltd) }
+        {Remote}
+        { Developing Sandbox Engine for Quantitative Researchers}{May 26' – Jul 26'}    
 
     
 %    \resumeSubheading
@@ -328,7 +336,7 @@
 % Project 4
    \resumeProject
       { LAKE 2020, IISc — \textnormal{Threats to the Nandi Hills Ecosystem}} %Project Name
-      {\vspace{-4mm}}
+      {\vspace{-6mm}}
       {Jun - Dec 20’} %Event Dates
 
 
@@ -342,25 +350,25 @@
 % Project 4
     \resumeProject
       { Research Paper in Chemistry — \textnormal{Shortcut Formulae to Calculate Electronic Configuration}} %Project Name
-      {\vspace{-4mm}}
+      {\vspace{-6mm}}
       {Dec 19’ - Jan 24’} %Event Dates
 
 % Project 4
     \resumeProject
       { High School Computer Science Project — \textnormal{Developing a Scientific Calculator from scratch}} %Project Name
-      {\vspace{-4mm}}
+      {\vspace{-6mm}}
       {Jun 22 - Jan 24’} %Event Dates
 
 % Project 4
     \resumeProject
       { Investigatory Project (Chemistry) — \textnormal{Economical Method for Biodiesel Synthesis}} %Project Name
-      {\vspace{-4mm}}
+      {\vspace{-6mm}}
       {2023} %Event Dates
 
 % Project 4
     \resumeProject
       { Investigatory Project (Physics) — \textnormal{Constructing Rectifiers for Electrical Signals}} %Project Name
-      {\vspace{-4mm}}
+      {\vspace{-6mm}}
       {2023} %Event Dates
 
 
@@ -543,6 +551,7 @@
 \resumePOR{ AI Internship Training, }{Infosys Springboard}{2025}\vspace{-2 mm}
 \resumePOR{ Volunteer Training, }{Bannerghatta Biological Park}{2023}\vspace{-2 mm}
 \resumePOR{ Ecological Research Program, }{CES, IISc LAKE Project}{2022}\vspace{-2 mm}
+\resumePOR{ GitHub OSS Development, }{Workday}{2026}\vspace{-2 mm}
 \resumeSubHeadingListEnd
 
 
