@@ -381,25 +381,33 @@
 
 
 
+
+
+
+
+
+
+
+
 %-----------Technical skills-----------------
 \section{\textbf{Technical Skills \& Interests}}
  \begin{itemize}[leftmargin=0.05in, label={}]
     \small{\item{
-     \textbf{Languages}{: } Python, C/C++/C#, Java, JavaScript, CSS, HTML, Rust, MATLAB, R \\
-     \textbf{Developer Tools}{: } Git, GitHub, Agile-Scrum, DevOps, Docker \\
-     \textbf{Frameworks}{: } Django, FastAPI, MERN Stack, Numpy, Sympy, Pandas, Matplotlib, Scikit-learn, TensorFlow, PyTorch, Quantum-Cirq-Qiskit \\
-     \textbf{Cloud/Databases}{: } SQL, Google Enterprise \\
-     \textbf{Agentic AI Tools}{: } n8n, OpenAI-AgentKit, Zapier, CrewAI, LangChain/LangGraph \\
-     \textbf{Operating Systems}{: } Windows, Linux \\
-     \textbf{Communication Skills}{: } Debating, Public Speaking, Event Hosting, Articulation \& Presentation, Analysis \& Consultation, PR, Marketing, Sales \\
-     \textbf{Leadership Skills}{: } Team Assignment \& Structuring, Guiding \& Motivating Teams, Decision-Making, Conflict Resolution, Work Ethic \\
-     \textbf{Interpersonal Skills}{: } Teamwork, Active Listening, Emotional Intelligence, Empathy, Relationship Building \\
-     \textbf{Problem-Solving \& Critical Thinking}{: } Problem Analysis, Creativity, Adaptability, Critical Thinking \\
-     \textbf{Organizational Skills}{: } Time Management, Planning, Prioritization, Presentation Skills, Self-Motivation \\
-     \textbf{Areas of Interest}{: } LLM, AGI, GenAI, AI: Agents, Solutions, Frameworks, Multi-agents/ Swarms, Self-optimization; High Frequency Algo-Trading \& Quantitative Finance; Quantum Mechanics, Computing, Cryptography \& Communication; Astrophysics \& Nuclear Physics; Algorithm Development.
+     \textbf{Languages}{: } Python, C/C\+\+/C\#, Java, JavaScript, Typescript, CSS, HTML, Rust, MATLAB, R, Julia, Go, Kotlin, Swift \\
+     \textbf{Agentic AI Tools}{: } n8n, OpenAI-AgentKit, Zapier, Notion CrewAI, LangChain/LangGraph, LlamaIndex, ClawdBot (OpenClaw), Computer (Perplexity), Claude Code, Antigravity, Cursor, Codex, Windsurf, Warp, GitHub Co-Pilot. 
+     \textbf{Developer Tools}{: } Git, GitHub, GitLab, Agile-Scrum, DevOps, Docker, Kubernetes, Terraform \\
+     \textbf{Frameworks/ Libraries}{: } Django, FastAPI, MERN Stack, Numpy, Sympy, Pandas, Matplotlib, Scikit-learn, TensorFlow, PyTorch, Quantum-Cirq-Qiskit, Next.js, Vue.js, Flutter \\
+     \textbf{Cloud/Databases}{: } MySQL, PostgreSQL, Redis, Supabase, MongoDB, Firebase, Google Cloud Services, Atlassian (Jira, Confluence, Bitbucket), Amazon Web Services, Workday (HRM)  \\
+     \textbf{Operating Systems}{: } Windows, Ubuntu (Linux), MacOS (Darwin: Unix) \\
+     \textbf{Required Communication, Leadership, Interpersonal, Problem-Solving, Critical-Thinking \& Organizational Skills}
+     \textbf{Areas of Interest}{: } LLM, AGI, GenAI, AI: Agents, Solutions, Frameworks, Multi-agents/ Swarms, Self-optimization; High Frequency Algo-Trading \& Quantitative Finance; Quantum Mechanics, Computing, Cryptography \& Communication; Astrophysics \& Nuclear Physics; Algorithm Development; Backend Development; Founder's Office (GTM); Entrpreneurship.
     }}
  \end{itemize}
  \vspace{-16pt}
+
+
+
+ 
 
 
 
