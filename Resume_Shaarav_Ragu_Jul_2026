@@ -473,19 +473,43 @@
 
 
 
+
+
+
+
+
+
+
+
 %-----------Achievements-----------------
 \section{\textbf{Awards \& Achievements}}
 \vspace{-0.4mm}
 \resumeSubHeadingListStart
-\resumePOR{ MUN (HRC, WHO, UNODC, SC, WB) – Best Delegate \& Chair,}{School \& College}{2019–2023}
-\resumePOR{ LAKE 2020 \& 2022 Finalist [National Level],}{Centre for Ecological Sciences, IISc}{2020–2022}
-\resumePOR{ JEE Main \& Advanced Qualified [National Level],}{Secured NIT Warangal M\&C Seat}{2024}
-    
+\resumePOR{ MUN (HRC, WHO, UNODC, SC, WB, US Cong.) – Best Delegate \& Chair,}{ School, College}{2019–2023} \vspace{-2 mm}
+\resumePOR{ LAKE 2020 \& 2022 Finalist [National Level],}{ Centre for Ecological Sciences, IISc}{2020–2022} \vspace{-2 mm}
+\resumePOR{ JEE Main \& Advanced Qualified [National Level]}{}{2024}
+\begin{resumeItemList}
+     Secured NIT Warangal M\&C Seat (Accepatance Rate: 0.3\%)
+\end{resumeItemList} 
+\vspace{-1.5 mm}
+\resumePOR{ FIITJEE Big Bang Edge Scholarship Test [National Level]}{}{2024}
+\begin{resumeItemList}
+     Top 3000 in 100,000; 75\% scholarship Class 11 \& 12 
+\end{resumeItemList} 
+\vspace{-2 mm}
+
 %\resumePOR{Achievement } % Award
 %    {description} % Event
 %    {Event dates} %Event Year
 \resumeSubHeadingListEnd
 \vspace{-5mm}
+
+
+
+
+
+
+
 
 %-------------------------------------------
 \section{\textbf{Coursework \& Certifications}}
