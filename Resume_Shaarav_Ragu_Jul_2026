@@ -211,22 +211,34 @@
 \section{\textbf{Experience}}
   \resumeSubHeadingListStart
     \resumeSubheading
-      { India Space Labs}{Remote}{ Intern – Drone, CanSat, CubeSat, Astronomy, Astrophysics} {Dec 2024 – Jul 2025}
+      { India Space Labs}{Remote - NCR based}{ Intern – Drone, CanSat, CubeSat, Astronomy, Astrophysics} {Dec 24' – Jul 25'}
 
     \resumeSubheading
-      { Perplexity [Comet]}{NIT Warangal}{ Campus Ambassador}{June 2025 – Present}
+      { Perplexity [Comet]}{NIT Warangal}{ Campus Ambassador, Marketing: Drive Comet Activations \& Perplexity Subscriptions}{June 25' – August 25'}
 
     \resumeSubheading
-      { Bannerghatta Biological Park}{Bangalore}{ Volunteer, Outreach and Public Education}{Oct 2023 – Jun 2024}
+      { Bannerghatta Biological Park}{Bangalore}{ Volunteer, Outreach and Public Education}{Oct 23' – Jun 24'}
 
     \resumeSubheading
-      { Schoolhouse}{Remote}{ Physics, Chemistry, Calculus and SAT Tutor}{Dec 2022 – Jun 2024}
+      { Schoolhouse}{Remote}{ Physics, Chemistry, Calculus and SAT Tutor}{Dec 22' – Jun 24'}
 
     \resumeSubheading
-      { Student Researcher [School]}{Indian Institute of Science}{ Conduct field studies along with Professors; testing, data analysis, data visualization, \& modeling}{2022 \& 2024}
+      { Student Researcher [School]}{Indian Institute of Science}{ Conduct field studies along with Professors; testing, data analysis, data visualization, \& modeling}{2022 \& 24}
 
     \resumeSubheading
-      { Infosys}{Remote}{ Intern and team lead for 25+ in project related to 'Development of AI Code Reviewer'.}{Dec 25' – Feb 26'}
+      { Infosys}{Remote - BLR based}{ Intern and team lead for 25+ in project related to 'Development of AI Code Reviewer'.}{Dec 25' – Feb 26'}
+
+    \resumeSubheading
+        { VM 365}
+        {Remote – SF based}
+        { B2B Sales Dev.: 4+ clients (100+ size);
+        build AI native (end-to-end) top 1\% lead generator/ outreach}{Dec 25' – Mar 26'}
+
+    \resumeSubheading
+        { SynnccIT }
+        {Remote}
+        { Founder, CEO - Revolutionizing IDE Development; Beta-testing phase}{Dec 25' – Present}
+
 
     
 
@@ -234,7 +246,7 @@
 %    \resumeSubheading
 %      {Company Name}{City}
 %      {Your Role}{Event dates}
-%      \vspace{-2.0mm}
+%      \vspace{2.0mm}
 %      \resumeItemListStart
 %    \item {Work description line 1}
 %    \item {Work description line 2}
@@ -468,6 +480,7 @@
 \resumePOR{ Team Lead, }{ Infosys, Lead a software team of size 25+}{Dec 25' - Feb 26'} \vspace{-2 mm}
 \resumeSubHeadingListEnd
 \vspace{-5mm}
+
 
 
 
