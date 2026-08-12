@@ -489,7 +489,10 @@
 \vspace{-1 mm}
 \resumeSubHeadingListStart
 \resumePOR{ Class Representative, } {Mathematics and Computing, NITW}{2024–2025} \vspace{-2 mm}
-\resumePOR{ Executive Member, } {Math Society \& SDC (AI/ML Vertical), SEA Club}{2025–Present} \vspace{-2 mm}
+\resumePOR{ Executive Member, } {Math Society \& SDC: Software Development Club (AI/ML \& }{2025–Present} \vspace{+2 mm}
+\begin{resumeItemList}
+     Cybersecurity Vertical), BDAAC: Big Data, Analytics and Consulting Club, SEA Club
+\end{resumeItemList} \vspace{-4 mm}
 \resumePOR{ Project Lead, }{Satellite and Electronics Amateur’s (SEA)}{2025–26} \vspace{-2 mm}
 \resumePOR{ Student Council, }{NIT Warangal}{2024–25} \vspace{-2 mm}
 \resumePOR{ Organiser, }{Technozion 2024 \& National Mathematics Day}{2024}  \vspace{-2 mm}
@@ -543,15 +546,24 @@
 
 
 
-
-%-------------------------------------------
-\section{\textbf{Coursework \& Certifications}}
+\section{\textbf{Contributions}}
 \resumeSubHeadingListStart
-\resumePOR{ Quantum Computing Course, }{The Coding School (Supported by Google Quantum AI)}{2024}\vspace{-2 mm}
-\resumePOR{ AI Internship Training, }{Infosys Springboard}{2025}\vspace{-2 mm}
-\resumePOR{ Volunteer Training, }{Bannerghatta Biological Park}{2023}\vspace{-2 mm}
-\resumePOR{ Ecological Research Program, }{CES, IISc LAKE Project}{2022}\vspace{-2 mm}
-\resumePOR{ GitHub OSS Development, }{Workday}{2026}\vspace{-2 mm}
+\resumePOR{ Co-author Textbook, }
+    {Design and Analysis of Algorithms}
+    {2025-Present}\vspace{-2 mm}
+\resumePOR{ Author Novel, }
+    {4th February 2024}
+    {2024-26}\vspace{-2 mm}
+\resumePOR{ Author Self-Help Book, }
+    {Power Dynamics}
+    {2026-Present}\vspace{-2 mm}
+\resumePOR{ Open Source Development, }
+    {Developing keyboard short-cuts on MacOS, Windows, Linux}
+    {2026-Present}\vspace{-2 mm}
+\resumePOR{ GitHub OSS, }
+    {Workday}
+    {2026-Present}\vspace{-2 mm}
+
 \resumeSubHeadingListEnd
 
 
