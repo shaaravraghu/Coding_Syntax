@@ -4,15 +4,6 @@
 % License : MIT
 %------------------------
 
-
-
-
-
-
-
-
-
-
 %---- Required Packages and Functions ----
 
 \documentclass[a4paper,11pt]{article}
@@ -462,7 +453,7 @@
     {}
     {}\vspace{1.75 mm}
 \begin{resumeItemList}
-    India's top (<1\%) founders \& builders; \$25000 credits provided; 35000+ applicants
+     India's top (<1\%) founders \& builders; \$25000 credits provided; 35000+ applicants
     \end{resumeItemList}
 \vspace{-3.25 mm}
 \resumePOR{ Technology Dialogue 2025, }
@@ -498,10 +489,11 @@
 \vspace{-1 mm}
 \resumeSubHeadingListStart
 \resumePOR{ Class Representative, } {Mathematics and Computing, NITW}{2024–2025} \vspace{-2 mm}
-\resumePOR{ Executive Member, } {Math Society \& SDC: Software Development Club (AI/ML \& }{2025–Present} \vspace{+2 mm}
+\resumePOR{ Executive Member, } {Mathematics Society; SDC: Software Development Club (AI-ML \& }{2025–Present} \vspace{+2 mm}
 \begin{resumeItemList}
-     Cybersecurity Vertical), BDAAC: Big Data, Analytics and Consulting Club, SEA Club
+      Cyber Security Vertical), SEA: Satellite and Electronic Amateurs Club
 \end{resumeItemList} \vspace{-4 mm}
+\resumePOR{ Joint Secretary (ML \& AI Engineering), }{BDAAC: Big Data, Analytics and Consulting Club}{2026-Present} \vspace{-2 mm}
 \resumePOR{ Project Lead, }{Satellite and Electronics Amateur’s (SEA)}{2025–26} \vspace{-2 mm}
 \resumePOR{ Student Council, }{NIT Warangal}{2024–25} \vspace{-2 mm}
 \resumePOR{ Organiser, }{Technozion 2024 \& National Mathematics Day}{2024}  \vspace{-2 mm}
@@ -530,6 +522,7 @@
 \section{\textbf{Awards \& Achievements}}
 \vspace{-0.4mm}
 \resumeSubHeadingListStart
+\resumePOR{ GitHub,}{ Under Top 10\% Worldwide }{2025-Present} \vspace{-2 mm}
 \resumePOR{ MUN (HRC, WHO, UNODC, SC, WB, US Cong.) – Best Delegate \& Chair,}{ School, College}{2019–2023} \vspace{-2 mm}
 \resumePOR{ LAKE 2020 \& 2022 Finalist [National Level],}{ Centre for Ecological Sciences, IISc}{2020–2022} \vspace{-2 mm}
 \resumePOR{ JEE Main \& Advanced Qualified [National Level]}{}{2024}
